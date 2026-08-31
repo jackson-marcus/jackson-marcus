@@ -1,6 +1,10 @@
-# Jackson Marcus
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=800&size=46&duration=2800&pause=2500&color=A78BFA&center=true&vCenter=true&width=720&height=90&lines=Jackson+Marcus" alt="Jackson Marcus" />
+</p>
 
-### Senior AI & Machine Learning Engineer · Production ML · Agentic AI · MLOps
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2200&pause=1800&color=7C3AED&center=true&vCenter=true&repeat=true&width=720&height=40&lines=Senior+AI+%26+Machine+Learning+Engineer;Production+ML+%7C+Agentic+AI+%7C+MLOps;Engineering+systems+that+make+decisions.;Not+notebooks+%E2%80%94+production+architecture." alt="Tagline" />
+</p>
 
 <p align="center">
   <a href="https://github.com/jackson-marcus">
@@ -43,22 +47,18 @@ I'm a **Senior AI & Machine Learning Engineer** who designs and builds productio
 
 I treat machine learning as systems engineering, not a collection of notebooks:
 
-```text
-Problem
-   ↓
-Data
-   ↓
-Feature Engineering
-   ↓
-Model / Algorithm
-   ↓
-Validation & Benchmarking
-   ↓
-API / Application
-   ↓
-Monitoring
-   ↓
-Decision / Automation
+```mermaid
+flowchart TD
+    A(["🎯  Problem"]):::step --> B(["📊  Data"]):::step
+    B --> C(["⚙️  Feature Engineering"]):::step
+    C --> D(["🤖  Model / Algorithm"]):::step
+    D --> E(["✅  Validation & Benchmarking"]):::step
+    E --> F(["🚀  API / Application"]):::step
+    F --> G(["📡  Monitoring"]):::step
+    G --> H(["⚡  Decision / Automation"]):::output
+
+    classDef step fill:#1e1b4b,stroke:#7c3aed,stroke-width:2px,color:#e2e8f0,rx:8
+    classDef output fill:#3b0764,stroke:#a855f7,stroke-width:3px,color:#f3e8ff,font-weight:bold,rx:8
 ```
 
 Areas I work in:
