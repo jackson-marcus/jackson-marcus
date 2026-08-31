@@ -403,18 +403,6 @@ flowchart TD
 
 ---
 
-# 🗓️ Contribution Activity
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/7c3aed/jackson-marcus" alt="Jackson Marcus contribution chart" />
-</p>
-
-<p align="center">
-  <sub>Contribution heatmap — darker squares = more commits that day</sub>
-</p>
-
----
-
 # 🎯 Engineering Philosophy
 
 <p align="center">
