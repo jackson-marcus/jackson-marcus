@@ -19,6 +19,24 @@
   <strong>Engineering intelligent systems that turn data, models and automation into production decisions.</strong>
 </p>
 
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,bash,pytorch,tensorflow,fastapi,docker,git,linux,vscode,github&perline=10" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-LightGBM%20·%20MLflow%20·%20Scikit--learn-7c3aed?style=flat-square&labelColor=1e1b4b" />
+  <img src="https://img.shields.io/badge/Generative%20AI-LLMs%20·%20RAG%20·%20Agents%20·%20Prompt%20Eng-7c3aed?style=flat-square&labelColor=1e1b4b" />
+  <img src="https://img.shields.io/badge/Data-Pandas%20·%20NumPy%20·%20DuckDB%20·%20Streaming-7c3aed?style=flat-square&labelColor=1e1b4b" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Retrieval-BM25%20·%20Dense%20·%20Hybrid%20·%20LambdaRank-a855f7?style=flat-square&labelColor=1e1b4b" />
+  <img src="https://img.shields.io/badge/MLOps-Docker%20·%20CI%2FCD%20·%20Monitoring%20·%20Serving-a855f7?style=flat-square&labelColor=1e1b4b" />
+  <img src="https://img.shields.io/badge/APIs-FastAPI%20·%20Streamlit%20·%20WebSockets-a855f7?style=flat-square&labelColor=1e1b4b" />
+</p>
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=jackson-marcus&style=flat-square&color=blueviolet" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/jackson-marcus?style=flat-square&label=Followers" />
@@ -257,25 +275,23 @@ This work extends beyond LLM applications into mathematical modeling, operations
 
 ### 🕸️ Graph ML & Fraud
 
-**Fraud-Graph**
+**Fraud-Graph** — Detects coordinated fraud rings through graph structure and ML classification.
 
-```text
-Transactions
-     ↓
-Shared Attributes
-     ↓
-Bipartite Graph
-     ↓
-Graph Projection
-     ↓
-Louvain Communities
-     ↓
-Graph Features
-     ↓
-LightGBM
+```mermaid
+flowchart TD
+    A(["💳  Transactions"]):::data --> B(["🔗  Shared Attributes"]):::proc
+    B --> C(["🕸️  Bipartite Graph"]):::proc
+    C --> D(["📐  Graph Projection"]):::proc
+    D --> E(["🔵  Louvain Communities"]):::proc
+    E --> F(["⚙️  Graph Features"]):::proc
+    F --> G(["🌲  LightGBM"]):::model
+    G --> H(["🚨  Fraud Ring Classification"]):::output
+
+    classDef data fill:#1a1a2e,stroke:#e94560,stroke-width:2px,color:#e2e8f0
+    classDef proc fill:#1e1b4b,stroke:#7c3aed,stroke-width:2px,color:#e2e8f0
+    classDef model fill:#0f3460,stroke:#533483,stroke-width:2px,color:#e2e8f0
+    classDef output fill:#3b0764,stroke:#a855f7,stroke-width:3px,color:#f3e8ff,font-weight:bold
 ```
-
-Detects coordinated fraud rings through graph structure and ML classification.
 
 ---
 
@@ -309,53 +325,20 @@ Detects coordinated fraud rings through graph structure and ML classification.
 
 **Shelf-Sight** — Retail shelf intelligence using classical computer vision:
 
-```text
-Image
- ↓
-HSV / Contour Segmentation
- ↓
-Product Facing Detection
- ↓
-Share-of-Shelf
- ↓
-Out-of-Stock Gap Detection
- ↓
-Planogram Compliance
+```mermaid
+flowchart TD
+    A(["🖼️  Image"]):::data --> B(["🎨  HSV / Contour Segmentation"]):::proc
+    B --> C(["📦  Product Facing Detection"]):::proc
+    C --> D(["📊  Share-of-Shelf"]):::metric
+    C --> E(["🕳️  Out-of-Stock Gap Detection"]):::metric
+    D --> F(["✅  Planogram Compliance"]):::output
+    E --> F
+
+    classDef data fill:#1a1a2e,stroke:#06b6d4,stroke-width:2px,color:#e2e8f0
+    classDef proc fill:#1e1b4b,stroke:#7c3aed,stroke-width:2px,color:#e2e8f0
+    classDef metric fill:#0f3460,stroke:#0ea5e9,stroke-width:2px,color:#e2e8f0
+    classDef output fill:#3b0764,stroke:#a855f7,stroke-width:3px,color:#f3e8ff,font-weight:bold
 ```
-
----
-
-# 🧰 Technology Stack
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,bash,sql" />
-</p>
-
-### AI / Machine Learning
-
-`Machine Learning` · `LightGBM` · `MLflow` · `Forecasting` · `Ranking` · `Recommendation Systems` · `Graph ML` · `NLP` · `Computer Vision`
-
-### Generative AI
-
-`LLM Applications` · `Agentic AI` · `RAG` · `Prompt Engineering` · `Text-to-SQL` · `LLM Evaluation` · `LLM Security`
-
-### Data
-
-`Pandas` · `NumPy` · `DuckDB` · `Statistical Modeling` · `Synthetic Data` · `Streaming Data`
-
-### Retrieval
-
-`BM25` · `Dense Retrieval` · `Embeddings` · `Semantic Search` · `LambdaRank` · `Hybrid Retrieval`
-
-### Backend & Applications
-
-`FastAPI` · `Streamlit` · `REST APIs` · `WebSockets`
-
-### DevOps / MLOps
-
-`Docker` · `Docker Compose` · `MLflow` · `CI/CD` · `Model Serving` · `Monitoring`
 
 ---
 
@@ -430,35 +413,6 @@ I care about:
 * production usability
 
 The goal isn't to make a model work — it's to make the **entire decision system reliable**.
-
----
-
-# 📚 Project Index
-
-| Project       | Domain           | Core Engineering                 |
-| ------------- | ---------------- | --------------------------------- |
-| Atlas         | Platform         | Service Registry / Async Fan-Out |
-| Copilot-Desk  | Agentic AI       | Multi-Agent Analytics            |
-| ETL-Watch     | Data Engineering | Drift / Quality Gates            |
-| Guardrail-Hub | AI Security      | Prompt Injection / PII           |
-| Prompt-Forge  | LLM Engineering  | Evaluation / Regression          |
-| Time-Grid     | Forecasting      | Hierarchical Reconciliation      |
-| Query-Smith   | Agentic AI       | Text-to-SQL / Self-Repair        |
-| Search-Smith  | Search           | BM25 / Dense / LambdaRank        |
-| Rec-Stack     | Recommendation   | ALS / LambdaRank                 |
-| Fraud-Graph   | Fraud            | Graph ML                         |
-| Pulse-Watch   | Streaming        | Real-Time Anomaly Detection      |
-| Ledger-Lens   | Finance AI       | Document AI / RAG                |
-| Health-Track  | Healthcare       | Risk / Fairness                  |
-| Shelf-Sight   | Computer Vision  | Retail Vision                    |
-| Stock-Room    | Optimization     | Inventory Simulation             |
-| Queue-Wise    | Operations       | Queue Optimization               |
-| Price-Optic   | Revenue          | Econometrics / Optimization      |
-| Paper-Pilot   | Research AI      | Retrieval / Citations            |
-| Med-Coder     | Clinical NLP     | Retrieval / ICD-10               |
-| Log-Sleuth    | AIOps            | Log Parsing / Incident Search    |
-| Synth-Lab     | Synthetic Data   | Fidelity / Utility / Privacy     |
-| Trend-Scout   | Streaming NLP    | Clustering / Burst Detection     |
 
 ---
 
