@@ -362,34 +362,44 @@ flowchart TD
 
 # 🏗️ Recurring Engineering Patterns
 
-Rather than one-off solutions, I apply reusable system-design patterns across projects:
+<p align="center"><sub>Rather than one-off solutions, the same proven patterns appear across every system.</sub></p>
 
-| Pattern                   | Where it appears           |
-| ------------------------- | --------------------------- |
-| Service Registry          | Atlas                      |
-| Async Fan-Out             | Atlas                      |
-| Multi-Agent Orchestration | Copilot-Desk               |
-| Guardrail Pipeline        | Guardrail-Hub              |
-| Read-Only Execution       | Copilot-Desk               |
-| Self-Correction Loop      | Query-Smith                |
-| Hybrid Retrieval          | Search-Smith / Paper-Pilot |
-| Two-Stage Ranking         | Rec-Stack                  |
-| Graph ML                  | Fraud-Graph                |
-| Streaming Detection       | Pulse-Watch                |
-| Forecast Reconciliation   | Time-Grid                  |
-| Discrete-Event Simulation | Stock-Room / Queue-Wise    |
-| Optimization              | Price-Optic / Stock-Room   |
-| Human-in-the-Loop         | Med-Coder                  |
-| ML Monitoring             | ETL-Watch                  |
+<div align="center">
+
+| Pattern | Where it appears |
+| :--- | :--- |
+| Service Registry | Atlas |
+| Async Fan-Out | Atlas |
+| Multi-Agent Orchestration | Copilot-Desk |
+| Guardrail Pipeline | Guardrail-Hub |
+| Read-Only Execution | Copilot-Desk |
+| Self-Correction Loop | Query-Smith |
+| Hybrid Retrieval | Search-Smith / Paper-Pilot |
+| Two-Stage Ranking | Rec-Stack |
+| Graph ML | Fraud-Graph |
+| Streaming Detection | Pulse-Watch |
+| Forecast Reconciliation | Time-Grid |
+| Discrete-Event Simulation | Stock-Room / Queue-Wise |
+| Optimization | Price-Optic / Stock-Room |
+| Human-in-the-Loop | Med-Coder |
+| ML Monitoring | ETL-Watch |
+
+</div>
 
 ---
 
 # 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=jackson-marcus&hide_border=true&theme=dark&ring=a855f7&fire=7c3aed&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=6b7280" height="170" />
-  <img src="https://img.shields.io/badge/Repos-58-7c3aed?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://streak-stats.demolab.com?user=jackson-marcus&hide_border=true&theme=dark&ring=a855f7&fire=7c3aed&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=6b7280" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Public%20Repos-58-7c3aed?style=for-the-badge&logo=github&logoColor=white" />
+  &nbsp;
   <img src="https://img.shields.io/badge/Followers-3-a855f7?style=for-the-badge&logo=github&logoColor=white" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ---
@@ -408,22 +418,29 @@ Rather than one-off solutions, I apply reusable system-design patterns across pr
 
 # 🎯 Engineering Philosophy
 
-> **A model is not the product. The system around the model is the product.**
+<p align="center">
+  <em><strong>A model is not the product. The system around the model is the product.</strong></em>
+</p>
 
-I care about:
+<p align="center">
+  <img src="https://img.shields.io/badge/Measurable%20Evaluation-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=7c3aed" />
+  <img src="https://img.shields.io/badge/Reproducibility-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=7c3aed" />
+  <img src="https://img.shields.io/badge/Validation-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=7c3aed" />
+  <img src="https://img.shields.io/badge/Explainability-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=7c3aed" />
+  <img src="https://img.shields.io/badge/Failure%20Handling-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=7c3aed" />
+</p>
 
-* measurable evaluation
-* reproducibility
-* validation
-* explainability
-* failure handling
-* operational constraints
-* system architecture
-* monitoring
-* cost awareness
-* production usability
+<p align="center">
+  <img src="https://img.shields.io/badge/System%20Architecture-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=a855f7" />
+  <img src="https://img.shields.io/badge/Monitoring-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=a855f7" />
+  <img src="https://img.shields.io/badge/Cost%20Awareness-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=a855f7" />
+  <img src="https://img.shields.io/badge/Production%20Usability-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=a855f7" />
+  <img src="https://img.shields.io/badge/Operational%20Constraints-1e1b4b?style=for-the-badge&labelColor=1e1b4b&color=a855f7" />
+</p>
 
-The goal isn't to make a model work — it's to make the **entire decision system reliable**.
+<p align="center">
+  <sub>The goal isn't to make a model work — it's to make the <strong>entire decision system reliable</strong>.</sub>
+</p>
 
 ---
 
