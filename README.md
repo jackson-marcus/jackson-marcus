@@ -387,12 +387,9 @@ Rather than one-off solutions, I apply reusable system-design patterns across pr
 # 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jackson-marcus&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jackson-marcus&layout=compact&hide_border=true&theme=transparent" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=jackson-marcus&hide_border=true&theme=transparent" />
+  <img src="https://streak-stats.demolab.com?user=jackson-marcus&hide_border=true&theme=dark&ring=a855f7&fire=7c3aed&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=6b7280" height="170" />
+  <img src="https://img.shields.io/badge/Repos-58-7c3aed?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Followers-3-a855f7?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
 ---
@@ -400,15 +397,11 @@ Rather than one-off solutions, I apply reusable system-design patterns across pr
 # 🗓️ Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jackson-marcus&bg_color=0d1117&color=a78bfa&line=7c3aed&point=a855f7&area=true&area_color=7c3aed&hide_border=true" />
+  <img src="https://ghchart.rshah.org/7c3aed/jackson-marcus" alt="Jackson Marcus contribution chart" />
 </p>
 
----
-
-# 🏅 GitHub Achievements
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jackson-marcus&theme=darkhub&no-frame=true&margin-w=8&column=7" />
+  <sub>Contribution heatmap — darker squares = more commits that day</sub>
 </p>
 
 ---
