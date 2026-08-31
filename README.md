@@ -46,16 +46,20 @@
 
 ---
 
-## ⚡ Snapshot
+<h2 align="center">⚡ Snapshot</h2>
 
-<table>
+<div align="center">
+
+<table width="100%">
 <tr>
-<td align="center"><strong>57+</strong><br/>Public Repositories</td>
-<td align="center"><strong>Python</strong><br/>Primary Engineering Language</td>
-<td align="center"><strong>AI + ML</strong><br/>Core Discipline</td>
-<td align="center"><strong>MLOps</strong><br/>Production Focus</td>
+<td align="center" width="25%"><strong>58+</strong><br/>Public Repositories</td>
+<td align="center" width="25%"><strong>Python</strong><br/>Primary Engineering Language</td>
+<td align="center" width="25%"><strong>AI + ML</strong><br/>Core Discipline</td>
+<td align="center" width="25%"><strong>MLOps</strong><br/>Production Focus</td>
 </tr>
 </table>
+
+</div>
 
 ---
 
@@ -399,6 +403,24 @@ flowchart TD
   <img src="https://img.shields.io/badge/Followers-3-a855f7?style=for-the-badge&logo=github&logoColor=white" />
   &nbsp;
   <img src="https://img.shields.io/badge/Language-Python-3776ab?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+---
+
+# 🏅 GitHub Achievements
+
+<p align="center">
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="60" height="60" alt="Pull Shark" title="Pull Shark" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="60" height="60" alt="Quickdraw" title="Quickdraw" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="60" height="60" alt="Pair Extraordinaire" title="Pair Extraordinaire" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="60" height="60" alt="Arctic Code Vault Contributor" title="Arctic Code Vault Contributor" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="60" height="60" alt="YOLO" title="YOLO" />
+  &nbsp;&nbsp;
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="60" height="60" alt="Starstruck" title="Starstruck" />
 </p>
 
 ---
