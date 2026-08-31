@@ -400,7 +400,7 @@ Rather than one-off solutions, I apply reusable system-design patterns across pr
 # 🗓️ Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jackson-marcus&hide_border=true&theme=github-compact" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jackson-marcus&bg_color=0d1117&color=a78bfa&line=7c3aed&point=a855f7&area=true&area_color=7c3aed&hide_border=true" />
 </p>
 
 ---
@@ -408,7 +408,7 @@ Rather than one-off solutions, I apply reusable system-design patterns across pr
 # 🏅 GitHub Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jackson-marcus&theme=flat&no-frame=true&no-bg=true&margin-w=10&row=1" />
+  <img src="https://github-profile-trophy.vercel.app/?username=jackson-marcus&theme=darkhub&no-frame=true&margin-w=8&column=7" />
 </p>
 
 ---
