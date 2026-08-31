@@ -237,45 +237,50 @@ Hierarchical forecasting and what-if planning — Fourier and ridge models with 
 
 ---
 
-# 🔬 Engineering Work by Domain
+# 🔬 Systems by Business Domain
 
-Applied ML and systems engineering across multiple problem classes.
+<p align="center"><sub>Production systems built across industries — each solving a real, measurable business problem.</sub></p>
 
-### 🔎 Search & Ranking
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-**Search-Smith** — Hybrid e-commerce search: `BM25 + Dense Retrieval + IPW Click Debiasing + LambdaRank`
+#### 🔎 Search & Discovery
+*Helping people find what they're looking for — faster and more accurately.*
 
-**Rec-Stack** — Two-stage recommendation architecture: `ALS / Co-occurrence → Candidate Generation → LambdaRank → Cold Start`
+**Search-Smith** — E-commerce search that understands intent, not just keywords. Learns from real click behavior to surface the most relevant results.<br/>
+**Rec-Stack** — Personalized recommendations that start broad and rank by what each user is most likely to engage with.
 
----
+</td>
+<td width="50%" valign="top">
 
-### 🤖 Agentic AI
+#### 🤖 AI Assistants & Agents
+*Automating analytical and operational work through intelligent, multi-step reasoning.*
 
-**Query-Smith** — Natural-language Text-to-SQL: `Schema Linking → SQL Generation → SQLGlot AST Validation → Execute → Repair`
+**Query-Smith** — Ask a business question in plain English; get a validated answer from your database — automatically.<br/>
+**Support-Pilot** — Classifies tickets, scores urgency, and drafts grounded replies for customer support teams.<br/>
+**Paper-Pilot** — Reads and clusters research papers, then answers questions with source citations.
 
-**Support-Pilot** — Customer-support automation: intent classification, priority scoring, similar-ticket retrieval, grounded knowledge-base generation.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Paper-Pilot** — Research intelligence system: arXiv ingestion, BM25, dense semantic retrieval, theme clustering, citation verification.
+#### 📊 Forecasting & Planning
+*Turning predictions into decisions — not just charts.*
 
----
+**Weather-Wise** — Converts weather forecasts into demand and revenue impact estimates before the weather arrives.<br/>
+**Queue-Wise** — Calculates the right staffing level at every hour to hit service targets without overspending.<br/>
+**Stock-Room** — Keeps inventory balanced across locations — enough to avoid stockouts, not so much it ties up cash.<br/>
+**Price-Optic** — Finds the price point that maximizes profit, with risk simulation before any change goes live.
 
-### 📊 Forecasting & Decision Intelligence
+</td>
+<td width="50%" valign="top">
 
-**Weather-Wise** — Weather-driven demand intelligence and revenue-impact modeling.
+#### 🕸️ Fraud & Risk Detection
+*Finding patterns humans miss — at scale.*
 
-**Queue-Wise** — Contact-center staffing optimization: `Forecasting → Erlang-C → SimPy Queue Simulation`
-
-**Stock-Room** — Multi-echelon inventory optimization: `EOQ + Safety Stock + (s,S) Policies + Discrete-Event Simulation`
-
-**Price-Optic** — Pricing optimization: `Elasticity Estimation → Nonlinear Profit Optimization → A/B Revenue Risk Simulation`
-
-This work extends beyond LLM applications into mathematical modeling, operations research, and decision systems.
-
----
-
-### 🕸️ Graph ML & Fraud
-
-**Fraud-Graph** — Detects coordinated fraud rings through graph structure and ML classification.
+**Fraud-Graph** — Connects transactions that share common attributes to expose coordinated fraud rings, not just individual bad actors.
 
 ```mermaid
 flowchart TD
@@ -293,44 +298,52 @@ flowchart TD
     classDef output fill:#3b0764,stroke:#a855f7,stroke-width:3px,color:#f3e8ff,font-weight:bold
 ```
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### ⚡ Real-Time ML
+#### ⚡ Real-Time Intelligence
+*Detecting what's wrong the moment it happens — not the next morning.*
 
-**Pulse-Watch** — Streaming anomaly detection: sliding-window statistics, Isolation Forest, WebSockets, alert routing, NAB benchmarking.
+**Pulse-Watch** — Watches live data streams and fires an alert the instant a metric goes outside normal bounds.<br/>
+**Trend-Scout** — Monitors news feeds in real time, removes duplicates, clusters topics, and delivers automated briefings.
 
-**Trend-Scout** — Real-time news intelligence: RSS streaming, MinHash deduplication, story clustering, burst detection, automated briefings.
+</td>
+<td width="50%" valign="top">
 
----
+#### 🧾 Enterprise Document AI
+*Extracting structured value from unstructured documents — reliably and with full traceability.*
 
-### 🧾 Enterprise AI
+**Ledger-Lens** — Reads financial documents and returns structured data with accounting rules applied and precise source citations.<br/>
+**Risk-Radar** — Scores vendor health over time and flags early warning signs before they become business incidents.<br/>
+**Resu-Match** — Matches job candidates to roles by actual skills, explains gaps clearly, and ranks applicants with evidence.
 
-**Ledger-Lens** — Financial document intelligence: multimodal extraction, deterministic accounting rules, policy RAG, precise citations.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Risk-Radar** — Vendor risk scoring and predictive diligence: time-decayed risk scoring, deterioration watchlists, cited policy assistant.
+#### 🏥 Healthcare AI
+*Better decisions for patients — built with fairness and explainability at the core.*
 
-**Resu-Match** — Semantic recruitment matching: resume parsing, alias-aware skill extraction, hybrid semantic/skill matching, explainable candidate gaps.
+**Health-Track** — Predicts which patients are likely to miss appointments so clinics can schedule smarter and reduce no-show losses. Fairness-checked across patient demographics.<br/>
+**Med-Coder** — Helps clinicians assign the right billing codes to clinical notes, cutting manual lookup time with explainable AI recommendations.
 
----
+</td>
+<td width="50%" valign="top">
 
-### 🏥 Healthcare AI
+#### 👁️ Computer Vision
+*Turning images into operational intelligence — no deep learning required.*
 
-**Health-Track** — Clinical appointment no-show risk modeling: calibrated LightGBM, subgroup fairness analysis, equalized-odds reporting, overbooking optimization.
-
-**Med-Coder** — Clinical NLP and assistive ICD-10 coding: medical abbreviation expansion, dense retrieval, hybrid retrieval, human-in-the-loop evaluation.
-
----
-
-### 👁️ Computer Vision
-
-**Shelf-Sight** — Retail shelf intelligence using classical computer vision:
+**Shelf-Sight** — Analyzes store shelf photos to measure product visibility, flag empty gaps, and verify shelves match the planned layout.
 
 ```mermaid
 flowchart TD
-    A(["🖼️  Image"]):::data --> B(["🎨  HSV / Contour Segmentation"]):::proc
-    B --> C(["📦  Product Facing Detection"]):::proc
+    A(["🖼️  Shelf Image"]):::data --> B(["🎨  Segmentation"]):::proc
+    B --> C(["📦  Product Detection"]):::proc
     C --> D(["📊  Share-of-Shelf"]):::metric
-    C --> E(["🕳️  Out-of-Stock Gap Detection"]):::metric
+    C --> E(["🕳️  Out-of-Stock Gaps"]):::metric
     D --> F(["✅  Planogram Compliance"]):::output
     E --> F
 
@@ -340,7 +353,12 @@ flowchart TD
     classDef output fill:#3b0764,stroke:#a855f7,stroke-width:3px,color:#f3e8ff,font-weight:bold
 ```
 
----
+</td>
+</tr>
+</table>
+
+
+
 
 # 🏗️ Recurring Engineering Patterns
 
