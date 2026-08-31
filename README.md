@@ -357,8 +357,7 @@ flowchart TD
 </tr>
 </table>
 
-
-
+---
 
 # 🏗️ Recurring Engineering Patterns
 
